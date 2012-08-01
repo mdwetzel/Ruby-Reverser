@@ -7,4 +7,5 @@ def reverse_string(string)
   return reversed_string.downcase
 end
 
-puts reverse_string("This is a test string")
+print "Enter a string to reverse: "
+puts "The reversed string is #{reverse_string(gets.chomp)}"
